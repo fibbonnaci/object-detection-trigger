@@ -75,3 +75,11 @@ exports.handler = (event, context, callback) => {
         SNS.publish(params, callback);
 };
 ```
+
+3. Click Save
+
+# Step 6- Disable the IoT rule
+
+1. Go to IoT console (https://console.aws.amazon.com/iotv2/home?region=us-east-1#) and choose Act
+
+2. Find the rule that you just created and disable it (Unless you want DeepLens to keep pinging you when it detects a person throughout the day ;) )
